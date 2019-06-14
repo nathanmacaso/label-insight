@@ -5,9 +5,9 @@ import logo from './palette-logo.png'
 export default function Nav() {
   return (
     <Navbar bg="dark" variant="dark">
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="/">
         <img
-          alt=""
+          alt="logo"
           src={logo}
           width="210"
           className="d-inline-block align-top"
